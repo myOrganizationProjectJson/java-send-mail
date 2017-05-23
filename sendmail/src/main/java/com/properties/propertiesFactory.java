@@ -26,6 +26,7 @@ public class propertiesFactory {
 		}
 		return _instance;
 	}
+	@Override
 	public propertiesFactory clone() {
 		return getInstance();
 	}

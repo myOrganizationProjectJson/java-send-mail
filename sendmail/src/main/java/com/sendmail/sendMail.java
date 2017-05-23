@@ -1,18 +1,16 @@
 package com.sendmail;
-	import javax.mail.Session;
-	import javax.mail.Transport;
-	import javax.mail.internet.InternetAddress;
-	import javax.mail.internet.MimeMessage;
-
-	import org.apache.log4j.Logger;
-	import com.properties.config;
-	import java.io.FileOutputStream;
-	import java.io.OutputStream;
 	import java.util.Date;
-	import java.util.Iterator;
-	import java.util.List;
-	import java.util.Properties;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Properties;
 import java.util.UUID;
+
+import javax.mail.Session;
+import javax.mail.Transport;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+
+import org.apache.log4j.Logger;
 
 	public class sendMail {
 	    // 发件人的 邮箱 和 密码（替换为自己的邮箱和密码）
