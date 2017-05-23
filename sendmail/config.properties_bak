@@ -1,0 +1,31 @@
+####################################################################
+#IF SEND TEST MAIL sendMail_testMail=1 ELSE 0
+sendMail_testMail=1
+sendMail_testMailUsername=
+sendMail_testMailEmail=
+####################################################################   
+   
+####################################################################    
+#SEND MAIL SMTP CONFIG 
+sendMail_sendsleep=
+sendMail_protocol=
+sendMail_myEmailSMTPHost=
+sendMail_smtpPort=
+sendMail_debug=true
+sendMail_auth=true
+sendMail_authType=false
+sendMail_Sendusername=
+sendMail_SendMail=
+sendMail_myEmailAccount=
+sendMail_myEmailPassword=
+
+####################################################################   
+
+####################################################################   
+#EMAIL CONTENT CONFIG sendMail_emailContentFileName=EMAIL CONTENT PATH
+sendMail_emailContentFileName=
+sendMail_Title=
+sendMail_Subject=
+####################################################################   
+
+	    

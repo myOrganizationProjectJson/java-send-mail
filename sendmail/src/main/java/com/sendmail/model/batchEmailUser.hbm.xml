@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.sendmail.model">
+	
+	<class name = "batchEmailUser" table = "batchEmailUser">
+		<id name="id">
+			<generator class="identity"/>
+		</id>
+		<property name = "email" />
+		<property name = "username" />
+		<property name = "status" />
+		<property name = "time" />
+	</class>
+
+</hibernate-mapping>
